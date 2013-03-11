@@ -1,0 +1,20 @@
+* { margin: 0; padding: 0; border: 0;}
+
+body { text-align: center; background-color: #e0e0e0; font-size: 2.5em; font-family:Segoe UI,Arial,sans-serif; }
+
+#container {  margin: .5em auto .5em auto; width: 480px; }
+
+a {color: #303030; text-decoration: none;}
+
+.menu_box { text-align: left; }
+
+a:hover { color: #d65a17; }
+
+#header {}
+
+#menu_title { border-bottom: 1px solid #303030; color: #d65a17; margin-top: 1em;} 
+
+.menu_box ul { list-style-type: none;  width: 100%; }
+
+.menu_box ul li { border-bottom: 1px solid #303030; padding: .5em; }
+

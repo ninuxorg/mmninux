@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title>- ninux.org -</title>
+		<link rel="shortcut icon" href="img/favicon.ico" />
+		<script type="text/javascript">
+
+		
+			//<!--
+			var menus = ['map', 'utils'];
+
+			function menuReset(){
+				for(var i in menus){
+					document.getElementById(menus[i]).style.display = 'none';
+					
+				}
+			}
+
+			function wizard(menu){
+				if(document.getElementById(menu).style.display == 'block'){
+					//document.getElementById(menu).style.display = 'none';
+					menuReset();
+				}
+				else{
+					menuReset();
+					document.getElementById(menu).style.display = 'block';		
+				}
+			}
+			//-->
+		</script>
+	<link rel="stylesheet" href="style/style.css" type="text/css" media="all" />
+	</head>
+	<body onload="menuReset();">
+		<div id="container">
+			<img src="img/ninux_logo.png" alt="ninux.org" id="logo"/>
+			<div id ="contents">
+				<div class="menu"><a href="http://wiki.ninux.org"><img src="img/wiki.png" alt="" />Wiki</a></div>
+		
+				<div class="menu"><a href="javascript:void(0);" onclick="wizard('map');"><img src="img/etx.png" alt="" />Map</a>
+						<div id="map" class="submenu">
+							<a href="http://map.ninux.org"><img src="img/etx.png" alt="" />Map server</a><br/>
+							<a href="geo:0,0?q=http://map.ninux.org/nodes.kml"><img src="img/android.png" alt="" />Map for Android</a><br/>
+							<a href="http://maps.google.com/?q=http://map.ninux.org/nodes.kml"><img src="img/google.png" alt="" />Map on googlemaps</a><br/>
+							<a href="http://map.ninux.org/nodes.kml"><img src="img/feed.png" alt="" />Kml</a><br/>
+						</div>
+				</div>
+				<div class="menu"><a href="http://blog.ninux.org/?wpmp_switcher=mobile"><img src="img/blog.png" alt="" />Blog</a></div>
+				<div class="menu"><a href="http://mobile.twitter.com/ninuxorg"><img src="img/twitter.png" alt="" />Twitter</a></div>				
+								
+				<div class="menu"><a href="javascript:void(0);" onclick="wizard('utils');"><img src="img/utils.png" alt="" />Utility</a>
+						<div id="utils" class="submenu">
+							<a href="http://wiki.ninux.org/GestioneIndirizzi"><img src="img/ethernet.png" alt="" />Gestione indirizzi</a><br/>
+							<a href="eth.html"><img src="img/ethernet.png" alt="" />Ethernet colors</a><br/>	
+						</div>
+				</div>
+
+                
+			<div id="footer"><a href="http://ninux.org">ninux.org</a></div>
+			</div>
+			
+		</div>
+	<!--
+        <div style="margin:0.5em auto 1em auto;  width: 8em; font-size:2em; border:.05em solid #000000; background-color:#ffcc00; color:#000000; padding:5px;text-align:center;">Non ti fidare!!!<br />Ricontrolla!</div>
+	</body>
+	-->
+
+</html>

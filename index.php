@@ -30,8 +30,8 @@
                             <input type="text" name="value" value=""/>
                             <input type="hidden" name="action" value="fullsearch" />
                             <input type="hidden" name="context" value="180" />
-                            <input type="hidden" name="titlesearch" value="Titoli" /><br/>
-                            <input type="submit" value="Cerca nel wiki"/>
+                            <input type="hidden" name="titlesearch" value="Titoli" />
+                            <input type="submit" value="Cerca nel wiki" class="button"/>
                         </form>
                     </li>
                     <li><a href="javascript:void(0);" onclick="OpenMenu('mainmenu');"><<</a></li>

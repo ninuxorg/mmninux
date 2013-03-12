@@ -18,3 +18,7 @@ a:hover { color: #d65a17; }
 
 .menu_box ul li { border-bottom: 1px solid #303030; padding: .5em; }
 
+input{ font-size: 1em; width: 100%; margin-bottom: .1em; border: 1px solid #303030;}
+
+.button { background-color: #303030; color: #e0e0e0; }
+

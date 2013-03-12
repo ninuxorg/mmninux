@@ -1,7 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="it-IT">
 
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <title>Ninux.org</title>
         <link rel="stylesheet" href="main.css" type="text/css" media="all" />
         <meta name="viewport" content="width=480;" />

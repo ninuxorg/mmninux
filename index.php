@@ -16,6 +16,7 @@
             <div class="menu_box" id="mainmenu">
                 <ul>
                     <li><a href="javascript:void(0);" onclick="OpenMenu('wikimenu');">Wiki</a></li>
+                    <li><a href="javascript:void(0);" onclick="OpenMenu('ninuxoomenu');">Ninuxoo</a></li>
                     <li><a href="javascript:void(0);" onclick="OpenMenu('mapmenu');">Map</a></li>
                     <li><a href="javascript:void(0);">Social</a></li>
                     <li><a href="javascript:void(0);">Tools</a></li>
@@ -32,6 +33,19 @@
                             <input type="hidden" name="context" value="180" />
                             <input type="hidden" name="titlesearch" value="Titoli" />
                             <input type="submit" value="Cerca nel wiki" class="button"/>
+                        </form>
+                    </li>
+                    <li><a href="javascript:void(0);" onclick="OpenMenu('mainmenu');"><<</a></li>
+                </ul>
+            </div>
+
+            <div class="menu_box" id="ninuxoomenu">
+                <ul>
+                    <li><a href="http://ninuxoo.ninux.org">Ninuxoo</a></li>
+                    <li>
+                        <form method="get" action="http://ninuxoo.ninux.org">
+                            <input type="text" name="q" value=""/>
+                            <input type="submit" value="Cerca su Ninuxoo" class="button"/>
                         </form>
                     </li>
                     <li><a href="javascript:void(0);" onclick="OpenMenu('mainmenu');"><<</a></li>

@@ -55,6 +55,10 @@
 
             <div class="menu_box" id="mapmenu">
                 <ul>
+                    <li><a href="http://map.ninux.org">Map server</a></li>
+					<li><a href="geo:0,0?q=http://map.ninux.org/nodes.kml">Map for Android</a></li>
+					<li><a href="http://maps.google.com/?q=http://map.ninux.org/nodes.kml">Map on googlemaps</a></li>
+					<li><a href="http://map.ninux.org/nodes.kml">Kml</a></li>
                     <li><a href="javascript:void(0);" onclick="OpenMenu('mainmenu');"><<</a></li>
                 </ul>
             </div>
